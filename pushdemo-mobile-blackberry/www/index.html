@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Push Demo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" id="viewport" content="width=device-width,height=device-height,initial-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="jquery.mobile.css" />
+    <script src="json2.js" type="text/javascript"></script>
+    <script src="cordova-2.0.0.js" type="text/javascript"></script>
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="jquery.mobile.js" type="text/javascript"></script>
+  </head>
+  <body>
+   <div pub-key="pub-bb70a1f9-8bc1-4716-98e8-eecbd3fbe035" sub-key="sub-5208c9eb-1c5b-11e1-9f33-9d1b3a4cde48" ssl="off" origin="pubsub.pubnub.com" id="pubnub"></div>
+    <script src="pubnub-3.1.js"></script>
+    <script src="main.js" type="text/javascript"></script>
+    <div id="main" data-role="page">
+        <div data-role="header" data-position="fixed"> 
+            <h3>Push Demo</h3>
+        </div>
+        <div data-role="content">
+            <ul data-role="listview" id="messages">
+            </ul>
+        </div>
+    </div>
+  </body>
+</html>
